@@ -1,18 +1,25 @@
 import React from 'react';
 import { NavigationBar } from './Components/Nav/NavigationBar'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import { Layout } from './Components'
 import HeaderCarousel from './Components'
-import { Home, Contact, IceMenu, PokeMenu, NoMatch } from './Pages'
+import { Content } from './Pages'
 
 function App() {
   return (
     <React.Fragment>
-      <NavigationBar />
+      <NavigationBar 
+        link1="HOME"
+        link2="ICE CREAM ROLLS"
+        brand="ICY BLUE"
+        link3="POKE BOWL"
+        link4="CONTACT"
+      />
       <HeaderCarousel />
       <Layout>
-          <Router>
+        <Content />
+          {/* <Router>
             <Switch>
               <Route exact path='/' component={Home} />
               <Route path='/contact' component={Contact} />
@@ -20,7 +27,7 @@ function App() {
               <Route path='/poke' component={PokeMenu} />
               <Route component={NoMatch} />
             </Switch>
-          </Router>
+          </Router> */}
       </Layout>
     </React.Fragment>
   );

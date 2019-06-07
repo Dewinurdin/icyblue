@@ -5,9 +5,9 @@ import { Menu } from '../Components/Menu'
 
 export const IceMenu = () => (
     <Container className="menu-item" id="icecreamrolls">
-      <Menu 
-        menuTitle="ICE CREAM ROLLS"
-      >
+      <Menu>
+      <h4>ROLLED ICE CREAM</h4>
+
       <h5>Step 1: Choose a flavor listed below</h5>
       <h5>Step 2: Choose your 3 tasty toppings after your ice cream is made</h5>
       

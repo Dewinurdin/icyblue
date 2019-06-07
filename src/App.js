@@ -12,7 +12,7 @@ function App() {
     <React.Fragment>
       <NavigationBar 
         link1="HOME"
-        link2="ICE CREAM ROLLS"
+        link2="ROLLED ICE CREAM"
         brand="ICY BLUE"
         link3="POKE BOWL"
         link4="CONTACT"

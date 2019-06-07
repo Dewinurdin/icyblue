@@ -38,6 +38,7 @@ class HeaderCarousel extends React.Component {
     return (
       <Styles>
         <Carousel
+          id="top-carousel"
           activeIndex={index}
           direction={direction}
           onSelect={this.handleSelect}

@@ -1,14 +1,14 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap';
-import wondershero  from '../assets/wondershero-small.jpeg'
-import strawberryBlueberry  from '../assets/strawberry-blueberry.jpg'
-import chocIce  from '../assets/rolled-ice-cream-choc.jpg'
+import green  from '../assets/green.jpg'
+import chocRolledIce  from '../assets/choc-rolled-ice.jpeg'
+import caramel  from '../assets/caramel.jpeg'
 
 import styled from 'styled-components'
 
 const Styles = styled.div `
   .d-block {
-    height: 43rem;
+    height: auto;
   }
 `;
 
@@ -45,38 +45,38 @@ class HeaderCarousel extends React.Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={wondershero}
+              src={caramel}
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3>Rolled Ice Cream</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>Whole Latte Love</h3>
+              <p>Coffee Base, Biscoff Cookie & Caramel Sauce</p>
             </Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={strawberryBlueberry}
+              src={chocRolledIce}
               alt="Second slide"
             />
 
             <Carousel.Caption>
-              <h3>Berry Blast</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3>Mint to Be</h3>
+              <p>Mint Oreo & Chocolate Sauce</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={chocIce}
+              src={green}
               alt="Third slide"
             />
 
             <Carousel.Caption>
-              <h3>Chocolate</h3>
+              <h3>Green Giant</h3>
               <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                Green Tea Base, Lychee & Condensed Milk
               </p>
             </Carousel.Caption>
           </Carousel.Item>

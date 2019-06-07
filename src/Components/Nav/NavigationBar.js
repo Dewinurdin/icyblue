@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Styles = styled.div `
   .navbar {
-    background-color: #000;
+    background-color: rgb(159, 198, 243);
     justify-content: center;
     width: 100%;
   }
@@ -12,7 +12,7 @@ const Styles = styled.div `
     position: fixed;
   }
   a, .navbar-brand, .navbar-nav .nav-link .nav-item {
-    color: #bbb;
+    color: #fff;
     padding: 1rem;
     font-family: Raleway;
 
@@ -34,7 +34,7 @@ const Styles = styled.div `
 
 const NavigationBar = (props) => (
       <Styles>
-        <Navbar className="top-nav">
+        <Navbar className="top-nav" fixed="top">
             <Nav.Item>
               <Nav.Link href="#content">{props.link1}</Nav.Link>
             </Nav.Item>

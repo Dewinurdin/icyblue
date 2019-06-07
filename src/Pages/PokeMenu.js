@@ -119,7 +119,70 @@ export const PokeMenu = () => (
       <Row>
         <Col xs={12} md={12}>
         <h5>SIGNATURE BOWLS</h5>
-        <p className="menu-item-title">TOPPINGS</p>
+        <p className="menu-item-title">Classic Tuna</p>
+        <p className="menu-item-descriptions">Ahi Tuna, green& sweet onions, cucumber, sesame seed, avocado, edamame, classic shoyu sauce and sushi rice</p>
+        <p className="menu-item-price"><strong>$11.50</strong></p>
+
+        <p className="menu-item-title">Spicy Yuzu Salmon</p>
+        <p className="menu-item-descriptions">Scottish salmon, green onions, cilantro, cucumber, mango, yuzu kosho sauce, kale salad & brown rice, avocado,  jalapeno and sweet ginger</p>
+        <p className="menu-item-price"><strong>$12</strong></p>
+
+        <p className="menu-item-title">Icy Blue</p>
+        <p className="menu-item-descriptions">Ahi tuna, pepper tuna, green & sweet onion, cucumber, edamame, sriracha aioli sauce, sushi rice, avocado and seaweed salad</p>
+        <p className="menu-item-price"><strong>$13.95</strong></p>
+
+        <p className="menu-item-title">Veggie Bowl</p>
+        <p className="menu-item-descriptions">Sushi rice and organic  local  greens, organic  tofu,  edamame, cucumber, sweet  corn, sweet chili, gochu  sauce, avocado, seaweed salad</p>
+        <p className="menu-item-price"><strong>$10.95</strong></p>
+
+        <p className="menu-item-title">Ahi Tuna Tower</p>
+        <p className="menu-item-descriptions">Sushi rice, spicy tuna, crabmeat, avocado, red tobiko, black tobiko, masago, kizami nori, mango sauce,  eel  sauce, sweet  chili sauce &  spicy mayo</p>
+        <p className="menu-item-price"><strong>$13.50</strong></p>
+
+        <p className="menu-item-title">Hawaiian Barbecue Bowl</p>
+        <p className="menu-item-descriptions">??Rice?? Sweet corn, onion, broccoli, carrot with ??sauce??</p>
+        <Row>
+        <Col xs={12} md={4}></Col>
+          <Col xs={12} md={2}>
+            <p className="menu-item-descriptions">with Chicken</p>
+          </Col> 
+          <Col xs={12} md={2}>
+            <p className="menu-item-price"><strong>$9</strong></p>
+          </Col> 
+          <Col xs={12} md={4}></Col>
+          <Col xs={12} md={4}></Col>
+          <Col xs={12} md={2}>
+            <p className="menu-item-descriptions">with Shrimp</p>
+          </Col> 
+          <Col xs={12} md={2}>
+            <p className="menu-item-price"><strong>$10</strong></p>
+          </Col> 
+          <Col xs={12} md={4}></Col>
+          <Col xs={12} md={4}></Col>
+          <Col xs={12} md={2}>
+            <p className="menu-item-descriptions">with Steak</p>
+          </Col> 
+          <Col xs={12} md={2}>
+            <p className="menu-item-price"><strong>$10.50</strong></p>
+          </Col> 
+          <Col xs={12} md={4}></Col>
+          <Col xs={12} md={4}></Col>
+          <Col xs={12} md={2}>
+            <p className="menu-item-descriptions">with Salmon</p>
+          </Col> 
+          <Col xs={12} md={2}>
+            <p className="menu-item-price"><strong>$?</strong></p>
+          </Col> 
+          <Col xs={12} md={4}></Col>
+        </Row>
+        </Col>
+      </Row>
+
+      <Row>
+        <Col xs={12} md={12}>
+          <p className="menu-item-title">
+            Consuming raw or under cooked meat, fish, shellfish or fresh egg may increase your risk of food  borne illness, especially if you have certain medical conditions
+          </p>
         </Col>
       </Row>
 

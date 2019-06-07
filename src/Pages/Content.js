@@ -43,7 +43,7 @@ const Styles = styled.div `
     color: rgb(96,96,96);
     font-size: 1rem;
   }
-  .menu-item-descriptions, .menu-item-list {
+  .menu-item-descriptions, .menu-item-list, .menu-item-price {
     text-align: center;
     font-weight: 500;
     color: rgb(128,128,128);

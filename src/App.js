@@ -1,5 +1,6 @@
 import React from 'react';
-import { NavigationBar } from './Components/Nav/NavigationBar'
+import NavigationBar from './Components/Nav/NavigationBar'
+import Footer from './Components/Footer'
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import { Layout } from './Components'
@@ -29,6 +30,7 @@ function App() {
             </Switch>
           </Router> */}
       </Layout>
+      <Footer />
     </React.Fragment>
   );
 }

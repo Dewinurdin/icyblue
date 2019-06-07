@@ -4,37 +4,15 @@ import styled from 'styled-components'
 
 const Styles = styled.div `
   .navbar {
-    background-color: #000;
-    justify-content: center;
-    width: 100%;
-  }
-  .top-nav {
-    position: fixed;
-  }
-  a, .navbar-brand, .navbar-nav .nav-link .nav-item {
-    color: #bbb;
-    padding: 1rem;
-    font-family: Raleway;
-
-    &:hover {
-      color: #fff;
+    background-color {
+      
     }
-  }
-  .nav-item {
-    font-size: 0.8rem;
-    margin-top: .4rem;
-    letter-spacing: 1px;
-    font-weight: bold;
-  }
-  .navbar-brand {
-    letter-spacing: 3px;
-    font-weight: bold;
   }
 `;
 
 const NavigationBar = (props) => (
       <Styles>
-        <Navbar className="top-nav">
+        <Navbar className="footer">
             <Nav.Item>
               <Nav.Link href="#content">{props.link1}</Nav.Link>
             </Nav.Item>

@@ -8,8 +8,8 @@ export const IceMenu = () => (
       <Menu>
       <h4>ROLLED ICE CREAM</h4>
 
-      <h5>Step 1: Choose a flavor listed below</h5>
-      <h5>Step 2: Choose your 3 tasty toppings after your ice cream is made</h5>
+      <h5>STEP 1: Choose a flavor listed below</h5>
+      <h5>STEP 2: Choose your 3 tasty toppings after your ice cream is made</h5>
       
         <Row className="top-row">
           <Col xs={12} md={4}>
@@ -71,9 +71,11 @@ export const IceMenu = () => (
           </Col>
         </Row>
 
-        <h5>Toppings:</h5>
         <Row className="top-row">
-          <Col xs={12} md={3}>
+          <Col xs={12} md={12}>
+            <h5>TOPPINGS:</h5>
+          </Col>
+          <Col xs={6} md={3}>
             <p className="menu-item-title">FRUITS</p>
             <p className="menu-item-list">Cherry</p>
             <p className="menu-item-list">Blueberry</p>
@@ -83,16 +85,8 @@ export const IceMenu = () => (
             <p className="menu-item-list">Lychee</p>
             <p className="menu-item-list">Pineapple</p>
             <p className="menu-item-list">Fruit Bubble</p>
-            <Col xs={12} md={12}>
-              <p className="menu-item-title">COOKIES</p>
-                <p className="menu-item-list">Graham Crackers</p>
-                <p className="menu-item-list">Pretzel Stix</p>
-                <p className="menu-item-list">Wafer Rolls</p>
-                <p className="menu-item-list">Nilla Wafers</p>
-            </Col>
-
           </Col>
-          <Col xs={12} md={3}>
+          <Col xs={6} md={3}>
             <p className="menu-item-title">CANDIES</p>
               <p className="menu-item-list">Marshmallow</p>
               <p className="menu-item-list">Gummy Bear</p>
@@ -102,17 +96,9 @@ export const IceMenu = () => (
               <p className="menu-item-list">Sour Patch Kids </p>
               <p className="menu-item-list">Condensed Milk </p>
 
-            <Col xs={12} md={12}>
-              <p className="menu-item-title">SYRUPS</p>
-                <p className="menu-item-list">Whipped Cream</p>
-                <p className="menu-item-list">Caramel Sauce</p>
-                <p className="menu-item-list">Chocolate Sauce</p>
-                <p className="menu-item-list">Strawberry Sauce</p>
-            </Col>
-
           </Col>
 
-          <Col xs={12} md={3}>
+          <Col xs={6} md={3}>
             <p className="menu-item-title">CHOCOLATE GOODIES</p>
               <p className="menu-item-list">Brownies</p>
               <p className="menu-item-list">Crushed Reeses</p>
@@ -128,16 +114,32 @@ export const IceMenu = () => (
               <p className="menu-item-list">Pecans</p>
           </Col>
 
-          <Col xs={12} md={3}>
-            <Col xs={12} md={12}>
+          <Col xs={6} md={3}>
+            <Col  xs={12} md={12}>
                 <p className="menu-item-title">CEREALS</p>
               <p className="menu-item-list">Cinnamon Toast Crunch</p>
                 <p className="menu-item-list">Fruity Pebbles</p>
             </Col>
             <Col xs={12} md={12}>
-                <p className="menu-item-title">ADDITIONAL ADD-ONS +$0.50</p>
+              <p className="menu-item-title">SYRUPS</p>
+                <p className="menu-item-list">Whipped Cream</p>
+                <p className="menu-item-list">Caramel Sauce</p>
+                <p className="menu-item-list">Chocolate Sauce</p>
+                <p className="menu-item-list">Strawberry Sauce</p>
+            </Col>
+            <Col xs={12} md={12}>
+            <p className="menu-item-title">COOKIES</p>
+              <p className="menu-item-list">Graham Crackers</p>
+              <p className="menu-item-list">Pretzel Stix</p>
+              <p className="menu-item-list">Wafer Rolls</p>
+              <p className="menu-item-list">Nilla Wafers</p>
             </Col>
           </Col>
+        </Row>
+        <Row>
+        <Col xs={12} md={12}>
+          <p className="menu-item-title">ADDITIONAL ADD-ONS +$0.50</p>
+        </Col>
         </Row>
       </Menu>
     </Container>

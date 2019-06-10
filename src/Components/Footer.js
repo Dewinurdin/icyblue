@@ -15,6 +15,7 @@ const Styles = styled.div `
     text-align: center;
     font-family: Raleway;
     padding: .5rem;
+    position: fixed;
 
     a, p, .brand, .address {
       color: white;
@@ -48,10 +49,10 @@ const Styles = styled.div `
       .footer {
         padding: .25rem;
 
-        .brand {
-          height: 35x;
-          width: 125px;
-        }
+        .logo {
+          height: 1.5rem;
+          width: 4rem;
+          }
 
         .address, .phone {
           font-size: .5rem;
@@ -85,7 +86,7 @@ const Footer = (props) => (
         <Row>
           <Col xs={12} md={12}>
             <img
-              className="brand"
+              className="logo"
               src={logo}
               width="170"
               height="45"

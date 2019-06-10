@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components'
 import logo from '../../assets/icy-blue-logo.jpg'
 
@@ -7,39 +7,28 @@ const Styles = styled.div `
   .navbar {
     background-color: rgb(159, 198, 243);
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     width: 100%;
     text-align: center;
-  
-  .top-nav {
-    position: fixed;
-  }
+    justify-content: center;
+    flex-wrap: wrap;
 
-  a, .navbar-brand, .navbar-nav .nav-link .nav-item {
-    color: #fff;
-    padding: .2rem;
-    font-family: Raleway;
-    margin-right: 5rem;
-    
-
-    &:hover {
+    a, .navbar-brand, .navbar-nav .nav-link .nav-item {
       color: #fff;
+      // padding: .2rem;
+      font-family: Raleway;
+
+      &:hover {
+        color: #fff;
+      }
     }
-  }
-  .nav-item {
-    font-size: 0.8rem;
-    // margin-top: .4rem;
-    letter-spacing: 1px;
-    font-weight: bold;
-  }
-  .navbar-brand {
-    font-size: 3rem;
-    // letter-spacing: 3px;
-    font-weight: 900;
-    color: #1854FD;
-    font-family: Comic Sans MS;
-  }
+    .nav-item {
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+      font-weight: bold;
+      margin-right: 3rem;
+      margin-left: 3rem;
+
+    }
 
 // ----------------------------------------- //
 // -------- MEDIA SCREEN ------------------- //
@@ -48,44 +37,59 @@ const Styles = styled.div `
     @media (max-width: 700px) {
       .navbar {
         height: auto;
+        justify-content: space-around;
+        padding: 0
+        margin: 0;
       }
+      .icy-blue {
+      }
+      .logo {
+        height: 2rem;
+        width: 6rem;
+      }
+      .nav-menu {
+        padding: 0.1rem;
+      }
+
       a, .navbar-nav .nav-link .nav-item {
         color: #fff;
         font-family: Raleway;
-        font-size: 8px;
+        font-size: 6px;
         letter-spacing: 0;
         padding: .1rem;
-        margin-right: 0.2rem;
+        margin-right: .1rem;
+
       }
       .navbar-brand {
-        font-size: .75rem;
-        letter-spacing: 0;
+        // font-size: .75rem;
+        // letter-spacing: 0;
       }
-      .top-nav {
-        padding: 0;
-      }    
+      .nav-item {
+        margin-right: 1.8rem;
+        margin-left: 1.8rem;  
+      }
     }
 // ----------------------------------------- //
 //  ----- END MEDIA SCREEN ---------------- //
 // ----------------------------------------- //
-
-}
-
 
 `;
 
 const NavigationBar = (props) => (
       <Styles>
         <Navbar className="top-nav" fixed="top">
+          <Nav.Item className="icy-blue">
             <Navbar.Brand href="/">
-            <img
-              src={logo}
-              width="300"
-              height="75"
-              className="d-inline-block align-top"
-              alt="Icy Blue logo"
-            />
+              <img
+                src={logo}
+                width="300"
+                height="75"
+                className="d-inline-block align-top logo"
+                alt="Icy Blue logo"
+              />
             </Navbar.Brand>
+          </Nav.Item>
+          <Container className="nav-menu">
             <Nav.Item>
               <Nav.Link href="#icecreamrolls">{props.link2}</Nav.Link>
             </Nav.Item>
@@ -95,6 +99,7 @@ const NavigationBar = (props) => (
             <Nav.Item>
               <Nav.Link href="#contact">{props.link4}</Nav.Link>
             </Nav.Item>
+          </Container>
         </Navbar>
       </Styles>
     )

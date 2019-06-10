@@ -14,6 +14,9 @@ const Styles = styled.div `
     text-align: center;
     background-color: #fff;
 
+    .accordion {
+    }
+
     .section-title {
       background-color: rgb(159, 198, 243);
       color: #fff;
@@ -42,7 +45,7 @@ const Styles = styled.div `
     .signature-menu {
       justify-content: center;
       font-weight: 600;
-      color: rgb(96,96,96);
+      color: #fff;
       margin: .5rem;
     }    
   }
@@ -86,17 +89,16 @@ const Styles = styled.div `
 // ----------------------------------------- //
 
     @media (max-width: 700px) {
-      #content {
-        padding: 0
-      }
-
       .main .menu-item {
-        padding: 0;
+        padding: 5px;
 
+        .section-title {
+          padding: 0;
+          
+        }
 
         h4 {
-          font-size: 1.25rem;
-          padding-top: 1rem;
+          font-size: 1rem;
         }
         h5 {
           font-size: .73rem;

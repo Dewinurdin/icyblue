@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f4907ba58f62bec87aa26fec803e7901",
+    "revision": "511550cf2ccd72414555a04b5bca65b0",
     "url": "/icyblue/index.html"
   },
   {
-    "revision": "213e1fb85ae64d914b6c",
+    "revision": "711f4db74815ab6031d0",
     "url": "/icyblue/static/css/main.c7bee9b1.chunk.css"
   },
   {
-    "revision": "587771cd75cd20e461b2",
-    "url": "/icyblue/static/js/2.4a4ce0a7.chunk.js"
+    "revision": "094cdb57a1dd95bc4e97",
+    "url": "/icyblue/static/js/2.e9cb7ae6.chunk.js"
   },
   {
-    "revision": "213e1fb85ae64d914b6c",
-    "url": "/icyblue/static/js/main.9fdc9860.chunk.js"
+    "revision": "711f4db74815ab6031d0",
+    "url": "/icyblue/static/js/main.cb5a7208.chunk.js"
   },
   {
     "revision": "f9bc1059c69e19ea2e9e",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "404322a868f6ec2b23797f272ae66acd",
     "url": "/icyblue/static/media/green.404322a8.jpg"
+  },
+  {
+    "revision": "740207b1f075cd2862b292f4275fb1ac",
+    "url": "/icyblue/static/media/icy-blue-logo.740207b1.jpg"
   },
   {
     "revision": "928343bff8309975b4cbcf0a644505c2",

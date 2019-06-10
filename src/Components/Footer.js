@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Row, Navbar } from 'react-bootstrap';
 import styled from 'styled-components'
-import logo from '../assets/icy-blue-logo.jpg'
+// import logo from '../assets/icy-blue-logo.jpg'
 
 const Styles = styled.div `
   .footer {
@@ -85,14 +85,14 @@ const Footer = (props) => (
       <Navbar className="footer" id="contact">
         <Row>
           <Col xs={12} md={12}>
-            <img
+            {/* <img
               className="logo"
               src={logo}
               width="170"
               height="45"
               alt="Icy Blue logo"
             />
-            <br />
+            <br /> */}
             <span className="address">3141 E Broad Street</span>
             <span className="divider"> | </span>
             <span className="address">Suite. 205</span>

@@ -180,43 +180,71 @@ export const PokeMenu = () => (
                 <p className="menu-item-price"><strong>$13.50</strong></p>
 
                 <p className="menu-item-title">Hawaiian Barbecue Bowl</p>
-                <p className="menu-item-descriptions">??Rice?? Sweet corn, onion, broccoli, carrot with Hawaiian barbecue sauce</p>
+                <p className="menu-item-descriptions">Your choice of Steam Rice, Brown Rice or Purple Rice or</p>
+                <p className="menu-item-descriptions"><strong>Upgrade to Fried Rice + $2</strong></p>
+
+                <p className="menu-item-descriptions">with Steamed Sweet corn, broccoli, carrot drizzled with Hawaiian barbecue sauce</p>
               
               <Row>
-                <Col xs={12} md={12}></Col>
+                <Col xs={12} md={12}>                
+                  <p className="menu-item-descriptions" style={{ padding: ".3rem" }}>
+                    <strong>Pick your protein:</strong>
+                  </p>
+                </Col>
                   <Col xs={3} md={3}>
-                    <p className="menu-item-descriptions">with Chicken</p>
+                    <p className="menu-item-descriptions">Chicken</p>
                   </Col> 
                   <Col xs={3} md={3}>
                     <p className="menu-item-price"><strong>$9</strong></p>
                   </Col> 
                   <Col xs={3} md={3}>            
-                    <p className="menu-item-descriptions">with Shrimp</p>
+                    <p className="menu-item-descriptions">Shrimp</p>
                   </Col>
                   <Col xs={3} md={3}>
                   <p className="menu-item-price"><strong>$10</strong></p>
                   </Col>
 
                   <Col xs={3} md={3}>
-                    <p className="menu-item-descriptions">with Steak</p>
+                    <p className="menu-item-descriptions">Steak</p>
                   </Col> 
                   <Col xs={3} md={3}>
                     <p className="menu-item-price"><strong>$12</strong></p>
                   </Col> 
                   <Col xs={3} md={3}>
-                    <p className="menu-item-descriptions">with Salmon</p>
+                    <p className="menu-item-descriptions">Salmon</p>
                   </Col> 
                   <Col xs={3} md={3}>
                     <p className="menu-item-price"><strong>$11</strong></p>
                   </Col> 
                   <Col xs={3} md={3}></Col>
                 </Row>
+
+                <Row>
+                <Col xs={12} md={12}>                
+                  <p className="menu-item-descriptions" style={{ padding: ".3rem" }}>
+                    <strong>Make it a Combo:</strong>
+                  </p>
+                </Col>
+                  <Col xs={6} md={6}>
+                    <p className="menu-item-descriptions">Combination of 2</p>
+                  </Col> 
+                  <Col xs={6} md={6}>
+                    <p className="menu-item-price"><strong>$16</strong></p>
+                  </Col> 
+                  <Col xs={6} md={6}>            
+                    <p className="menu-item-descriptions">Combination of 3</p>
+                  </Col>
+                  <Col xs={6} md={6}>
+                  <p className="menu-item-price"><strong>$20</strong></p>
+                  </Col>
+                </Row>
                 </Col>
               </Row>
 
+
               <Row>
                 <Col xs={12} md={12}>
-                  <p className="menu-item-title">
+                  <p className="menu-item-warning">
                     Consuming raw or under cooked meat, fish, shellfish or fresh egg may increase your risk of food  borne illness, especially if you have certain medical conditions
                   </p>
                 </Col>

@@ -15,7 +15,7 @@ function App() {
         link4="CONTACT"
       />
       <HeaderCarousel />
-        <Content />
+      <Content />
       <Footer />
     </React.Fragment>
   );

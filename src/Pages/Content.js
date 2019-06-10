@@ -12,10 +12,20 @@ const Styles = styled.div `
     font-family: Raleway
     padding: 1rem;
     text-align: center;
+    background-color: #fff;
+
+    .section-title {
+      background-color: rgb(159, 198, 243);
+      color: #fff;
+      margin: 0 0 .75rem 0;
+      padding: .75rem;
+      border-radius: 3px;
+    }
 
     h4 {
       font-weight: 600;
       padding: .5rem;
+      letter-spacing: 2px;
     }
     h5 {
       font-weight: bold;
@@ -35,7 +45,6 @@ const Styles = styled.div `
       color: rgb(96,96,96);
       margin: .5rem;
     }    
-
   }
 
   .menu-item-title  {
@@ -55,7 +64,7 @@ const Styles = styled.div `
     font-size: .88rem;
   }
   .top-row {
-    padding: 1rem;
+    margin: 1rem;
   }
 
   .size {
@@ -66,6 +75,10 @@ const Styles = styled.div `
     letter-spacing: 1px;
     margin-top: -.25rem;
   }
+  .col-md-4 {
+    padding: 0;
+  }
+  
 
 
   // ----------------------------------------- //

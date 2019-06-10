@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Row, Navbar } from 'react-bootstrap';
 import styled from 'styled-components'
+import logo from '../assets/icy-blue-logo.jpg'
 
 const Styles = styled.div `
   .footer {
@@ -22,38 +23,57 @@ const Styles = styled.div `
         color: #fff;
       }
     }
-    .brand {
-      font-size: 1.5rem;
-      letter-spacing: 3px;
-      font-weight: 900;
-      margin-bottom: 1rem;
-    }  
-    .address {
-      font-size: .85rem;
+    .address, .phone {
+      font-size: .8rem;
       letter-spacing: 1px;
-      font-weight: 500;
+      font-weight: 600;
       margin-bottom: 0;
     }
-    .phone {
-      letter-spacing: 1px;
-      font-weight: 500;
-      margin-bottom: 0;
-    }
-    .copyright {
+    .copyright, .developer {
       color: white;
-      font-size: .75rem;
+      font-size: .6rem;
       margin-top: 10px;
     }
     .divider {
       margin-right: 10px;
       margin-left: 10px;
     }
-    .developer {
-      color: #fff;
-      font-size: .75rem;
-    }
-    
   }
+
+// ----------------------------------------- //
+// -------- MEDIA SCREEN ------------------- //
+// ----------------------------------------- //
+
+    @media (max-width: 700px) {
+      .footer {
+        padding: .25rem;
+
+        .brand {
+          height: 35x;
+          width: 125px;
+        }
+
+        .address, .phone {
+          font-size: .5rem;
+          letter-spacing: 0;
+          margin-bottom: 0;
+        }
+        .copyright, .developer {
+          color: #fff;
+          font-size: 7px;
+          padding: 5px;
+        }
+        .divider {
+          margin-right: 4px;
+          margin-left: 4px;
+          font-size: 9px;
+        }
+      }
+    }
+// ----------------------------------------- //
+//  ----- END MEDIA SCREEN ---------------- //
+// ----------------------------------------- //
+
 `;
 
 const d = new Date();
@@ -63,16 +83,27 @@ const Footer = (props) => (
     <Styles>
       <Navbar className="footer" id="contact">
         <Row>
-        <Col xs={12} md={12}>
-          <span className="brand">ICY BLUE</span>
-          <p className="address">3141 E Broad Street</p>
-          <p className="address">Suite. 205</p>
-          <p className="address">Mansfield, TX 76063</p>
-          <p className="phone">Phone: 817-888-8888</p>
-          <span className="copyright">© Copyright {getYear} Icy Blue</span>
-          <span className="divider"> | </span>
-          <span className="developer">Designed & Maintain by <a href=' https://portfolio-dewi.herokuapp.com/' target='_blank'>Dewi Nurdin</a></span>
-        </Col>
+          <Col xs={12} md={12}>
+            <img
+              className="brand"
+              src={logo}
+              width="170"
+              height="45"
+              alt="Icy Blue logo"
+            />
+            <br />
+            <span className="address">3141 E Broad Street</span>
+            <span className="divider"> | </span>
+            <span className="address">Suite. 205</span>
+            <span className="divider"> | </span>
+            <span className="address">Mansfield, TX 76063</span>
+            <span className="divider"> | </span>
+            <span className="phone">Call us: 817-888-8888</span>
+            <br />
+            <span className="copyright">© Copyright {getYear} Icy Blue</span>
+            <span className="divider"> | </span>
+            <span className="developer">Designed & Maintain by <a href=' https://portfolio-dewi.herokuapp.com/' target='_blank'>Dewi Nurdin</a></span>
+          </Col>
         </Row>
       </Navbar>
     </Styles>

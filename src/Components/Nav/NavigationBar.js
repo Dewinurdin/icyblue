@@ -1,12 +1,16 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components'
+import logo from '../../assets/icy-blue-logo.jpg'
 
 const Styles = styled.div `
   .navbar {
     background-color: rgb(159, 198, 243);
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     width: 100%;
+    text-align: center;
   
   .top-nav {
     position: fixed;
@@ -16,6 +20,8 @@ const Styles = styled.div `
     color: #fff;
     padding: .2rem;
     font-family: Raleway;
+    margin-right: 5rem;
+    
 
     &:hover {
       color: #fff;
@@ -23,13 +29,16 @@ const Styles = styled.div `
   }
   .nav-item {
     font-size: 0.8rem;
-    margin-top: .4rem;
+    // margin-top: .4rem;
     letter-spacing: 1px;
     font-weight: bold;
   }
   .navbar-brand {
-    letter-spacing: 3px;
-    font-weight: bold;
+    font-size: 3rem;
+    // letter-spacing: 3px;
+    font-weight: 900;
+    color: #1854FD;
+    font-family: Comic Sans MS;
   }
 
 // ----------------------------------------- //
@@ -43,14 +52,14 @@ const Styles = styled.div `
       a, .navbar-nav .nav-link .nav-item {
         color: #fff;
         font-family: Raleway;
-        font-size: 8.35px;
+        font-size: 8px;
         letter-spacing: 0;
-        margin: 4px;
+        padding: .1rem;
+        margin-right: 0.2rem;
       }
       .navbar-brand {
         font-size: .75rem;
         letter-spacing: 0;
-        font-weight: bold;
       }
       .top-nav {
         padding: 0;
@@ -68,15 +77,18 @@ const Styles = styled.div `
 const NavigationBar = (props) => (
       <Styles>
         <Navbar className="top-nav" fixed="top">
-            <Nav.Item>
-              <Nav.Link href="#top-carousel">{props.link1}</Nav.Link>
-            </Nav.Item>
+            <Navbar.Brand href="/">
+            <img
+              src={logo}
+              width="300"
+              height="75"
+              className="d-inline-block align-top"
+              alt="Icy Blue logo"
+            />
+            </Navbar.Brand>
             <Nav.Item>
               <Nav.Link href="#icecreamrolls">{props.link2}</Nav.Link>
             </Nav.Item>
-  
-            <Navbar.Brand href="/">{props.brand}</Navbar.Brand>
-
             <Nav.Item>
               <Nav.Link href="#poke">{props.link3}</Nav.Link>
             </Nav.Item>

@@ -6,6 +6,9 @@ import styled from 'styled-components'
 const Styles = styled.div`
   .google-map {
     .embed-responsive  {
+      display: flex;
+      justify-content: center;
+      align item: center;
       height: 300px;
       width: 100%;
       margin-top: .3rem;

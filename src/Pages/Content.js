@@ -22,14 +22,14 @@ const Styles = styled.div `
     .section-title {
       background-color: rgb(159, 198, 243);
       color: #fff;
-      margin: 0 0 .75rem 0;
+      margin: 0 0 .25rem 0;
       padding: .75rem;
       border-radius: 3px;
     }
 
     h4 {
       font-weight: 600;
-      padding: .5rem;
+      padding: .25rem;
       letter-spacing: 2px;
     }
     h5 {
@@ -45,7 +45,6 @@ const Styles = styled.div `
       line-height: 1.5rem;
     }  
     .signature-menu {
-      justify-content: center;
       font-weight: 600;
       color: #fff;
       margin: .5rem;
@@ -53,7 +52,6 @@ const Styles = styled.div `
   }
 
     .menu-item-title  {
-        text-align: center;
         margin-bottom: 0px;
     }
 
@@ -63,7 +61,6 @@ const Styles = styled.div `
       font-size: 1rem;
     }
     .menu-item-descriptions, .menu-item-list, .menu-item-price {
-      text-align: center;
       font-weight: 500;
       color: rgb(128,128,128);
       font-size: .88rem;
@@ -73,7 +70,6 @@ const Styles = styled.div `
     }
 
     .size {
-      text-align: center;
       font-weight: 600;
       color: rgb(96,96,96);
       font-size: 1rem;
@@ -84,7 +80,6 @@ const Styles = styled.div `
       padding: 0;
     }
     .menu-item-warning {
-      text-align: center;
       font-weight: 600;
       color: rgb(128,128,128);
       font-size: .85rem;
@@ -103,7 +98,6 @@ const Styles = styled.div `
 
         .section-title {
           padding: 0;
-          
         }
 
         h4 {

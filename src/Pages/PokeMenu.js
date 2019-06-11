@@ -179,7 +179,7 @@ export const PokeMenu = () => (
                 <p className="menu-item-price"><strong>$13.50</strong></p>
 
                 <p className="menu-item-title">Hawaiian Barbecue Bowl</p>
-                <p className="menu-item-descriptions">Your choice of Steam Rice, Brown Rice or Purple Rice or</p>
+                <p className="menu-item-descriptions">Your choice of Steam Rice, Brown Rice, Purple Rice or</p>
                 <p className="menu-item-descriptions"><strong>Upgrade to Fried Rice + $2</strong></p>
 
                 <p className="menu-item-descriptions">with Steamed Sweet corn, broccoli, carrot drizzled with Hawaiian barbecue sauce</p>

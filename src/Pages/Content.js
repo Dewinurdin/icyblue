@@ -22,15 +22,14 @@ const Styles = styled.div `
     .section-title {
       background-color: rgb(159, 198, 243);
       color: #fff;
-      margin: 0 0 .25rem 0;
-      padding: .75rem;
       border-radius: 3px;
     }
-
     h4 {
       font-weight: 600;
-      padding: .25rem;
       letter-spacing: 2px;
+      padding-bottom: 0;
+      margin-bottom: 0.1rem;
+      margin-top: .75rem;
     }
     h5 {
       font-weight: bold;
@@ -48,9 +47,14 @@ const Styles = styled.div `
       font-weight: 600;
       color: #fff;
       margin: .5rem;
-    }    
+    }   
+    .ice-price {
+      color: #fff;
+      font-size: 1.3rem;
+      font-weight: 600;
+      padding: .2rem;
+    }   
   }
-
     .menu-item-title  {
         margin-bottom: 0px;
     }
@@ -58,7 +62,7 @@ const Styles = styled.div `
     .menu-item-title, .menu-item-toppings {
       font-weight: 600;
       color: rgb(96,96,96);
-      font-size: 1rem;
+      font-size: .9rem;
     }
     .menu-item-descriptions, .menu-item-list, .menu-item-price {
       font-weight: 500;
@@ -99,9 +103,12 @@ const Styles = styled.div `
         .section-title {
           padding: 0;
         }
+        .ice-price {
+          font-size: .9rem;
+        }
 
         h4 {
-          font-size: 1rem;
+          font-size: .9rem;
         }
         h5 {
           font-size: .73rem;

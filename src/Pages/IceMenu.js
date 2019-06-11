@@ -7,11 +7,12 @@ export const IceMenu = () => (
           <Card >
             <Accordion.Toggle className="section-title" as={Card.Header} eventKey="0">
               <h4>ROLLED ICE CREAM</h4>
+              <p className="ice-price">$6.99</p>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <Card.Body>
-                <h5>STEP 1: Choose a flavor listed below</h5>
-                <h5>STEP 2: Choose your 3 tasty toppings after your ice cream is made</h5>
+                <h5>STEP 1: Choose a Flavor listed below</h5>
+                <h5>STEP 2: Choose 3 tasty toppings after your ice cream is made</h5>
                 <Row className="top-row">
                   <Col xs={12} md={4}>
                     <p className="menu-item-title">Strawbella</p>
@@ -74,7 +75,7 @@ export const IceMenu = () => (
 
                 <Row className="top-row">
                   <Col xs={12} md={12}>
-                    <h5>TOPPINGS:</h5>
+                    <h5 style={{ marginBottom: '1rem' }}>TOPPINGS:</h5>
                   </Col>
                   <Col xs={6} md={3}>
                     <p className="menu-item-title">FRUITS</p>

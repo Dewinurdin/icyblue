@@ -36,7 +36,7 @@ const Styles = styled.div `
     @media (max-width: 700px) {
       .navbar {
         height: auto;
-        justify-content: space-around;
+        justify-content: space-evenly;
         padding: 0
         margin: 0;
       }

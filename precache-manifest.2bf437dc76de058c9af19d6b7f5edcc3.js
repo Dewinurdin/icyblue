@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5f69d6f6a8f0dea5e5c7bb6ef273d11",
+    "revision": "5008e89da2be81ee11fc0830ead1dc39",
     "url": "/icyblue/index.html"
   },
   {
-    "revision": "cdc96ea842ee96f1564b",
+    "revision": "76ced242742a8c769163",
     "url": "/icyblue/static/css/main.c7bee9b1.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/icyblue/static/js/2.12e7bbd3.chunk.js"
   },
   {
-    "revision": "cdc96ea842ee96f1564b",
-    "url": "/icyblue/static/js/main.31bba912.chunk.js"
+    "revision": "76ced242742a8c769163",
+    "url": "/icyblue/static/js/main.fead6e73.chunk.js"
   },
   {
     "revision": "f9bc1059c69e19ea2e9e",

@@ -14,7 +14,6 @@ const Styles = styled.div `
 
     a, .navbar-brand, .navbar-nav .nav-link .nav-item {
       color: #fff;
-      // padding: .2rem;
       font-family: Raleway;
 
       &:hover {
@@ -25,8 +24,8 @@ const Styles = styled.div `
       font-size: 0.8rem;
       letter-spacing: 1px;
       font-weight: bold;
-      margin-right: 3rem;
-      margin-left: 3rem;
+      margin-right: 2.5rem;
+      margin-left: 2.5rem;
 
     }
 
@@ -97,7 +96,7 @@ const NavigationBar = (props) => (
               <Nav.Link href="#poke">{props.link3}</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="#contact">{props.link4}</Nav.Link>
+              <Nav.Link href="#map">{props.link4}</Nav.Link>
             </Nav.Item>
           </Container>
         </Navbar>

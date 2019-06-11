@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col, Row, Navbar } from 'react-bootstrap';
 import styled from 'styled-components'
-// import logo from '../assets/icy-blue-logo.jpg'
 
 const Styles = styled.div `
   .footer {
@@ -82,7 +81,7 @@ const getYear = d.getFullYear();
 
 const Footer = (props) => (
     <Styles>
-      <Navbar className="footer" id="contact">
+      <Navbar className="footer" id="footer">
         <Row>
           <Col xs={12} md={12}>
             {/* <img

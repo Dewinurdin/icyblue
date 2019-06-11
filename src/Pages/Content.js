@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 
 import { IceMenu }  from './IceMenu'
 import { PokeMenu } from './PokeMenu'
+import Map from '../Components/Map'
 
 import styled from 'styled-components'
 
@@ -10,10 +11,10 @@ const Styles = styled.div `
   .main .menu-item {
     height: auto;
     font-family: Raleway;
-    padding: 1rem;
+    padding-top: 1rem;
     text-align: center;
     background-color: #fff;
-    margin-bottom: 2rem;
+    margin-bottom: 0.1rem;
 
     .accordion {
     }
@@ -150,6 +151,8 @@ export const Content = () => (
 
       {/* POKE MENU */}
       <PokeMenu />
+
+      <Map />
 
     </Container>
   </Styles>

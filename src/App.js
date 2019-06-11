@@ -12,7 +12,7 @@ function App() {
         link2="ROLLED ICE CREAM"
         brand="Icy Blue"
         link3="POKE BOWL"
-        link4="CONTACT"
+        link4="OUR LOCATION"
       />
       <HeaderCarousel />
       <Content />

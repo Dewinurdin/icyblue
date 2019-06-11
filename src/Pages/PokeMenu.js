@@ -35,15 +35,13 @@ export const PokeMenu = () => (
                     <Col xs={4} md={12}>
                       <p className="menu-item-descriptions">Ahi Tuna</p>
                       <p className="menu-item-descriptions">Scottish Salmon</p>
-                      <p className="menu-item-descriptions">Yellow Tail</p>
-                      <p className="menu-item-descriptions">Red Snapper</p>
                       <p className="menu-item-descriptions">Pepper Tuna</p>
+                      <p className="menu-item-descriptions">Crabmeat</p>
+
                     </Col>
                     <Col xs={4} md={12}>
                       <p className="menu-item-descriptions">Spicy Tuna</p>
                       <p className="menu-item-descriptions">Creamy Scallops</p>
-                      <p className="menu-item-descriptions">Shrimp</p>
-                      <p className="menu-item-descriptions">Crabmeat</p>
                       <p className="menu-item-descriptions">Organic Tofu</p>
                     </Col>
                     <Col xs={2} md={12}></Col>
@@ -124,7 +122,8 @@ export const PokeMenu = () => (
                     <Col xs={4} md={12}>
                       <p className="menu-item-descriptions">Masago (Fish egg)</p>
                       <p className="menu-item-descriptions">Kizami Nori</p>
-                      <p className="menu-item-descriptions">Taro Chip</p>
+                      <p className="menu-item-descriptions">Lotus Root</p>
+
                     </Col>
                     <Col xs={2} md={12}></Col>
                   </Row>

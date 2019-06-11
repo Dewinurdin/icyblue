@@ -64,8 +64,8 @@ const Styles = styled.div `
         // letter-spacing: 0;
       }
       .nav-item {
-        margin-right: 1.8rem;
-        margin-left: 1.8rem;  
+        margin-right: 1.7rem;
+        margin-left: 1.7rem;  
       }
     }
 // ----------------------------------------- //

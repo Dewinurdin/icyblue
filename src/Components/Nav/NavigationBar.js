@@ -43,8 +43,8 @@ const Styles = styled.div `
       .icy-blue {
       }
       .logo {
-        height: 2rem;
-        width: 6rem;
+        height: 2.5rem;
+        width: 9rem;
       }
       .nav-menu {
         padding: 0.1rem;
@@ -53,7 +53,7 @@ const Styles = styled.div `
       a, .navbar-nav .nav-link .nav-item {
         color: #fff;
         font-family: Raleway;
-        font-size: 6px;
+        font-size: 8px;
         letter-spacing: 0;
         padding: .1rem;
         margin-right: .1rem;
@@ -64,8 +64,8 @@ const Styles = styled.div `
         // letter-spacing: 0;
       }
       .nav-item {
-        margin-right: 1.7rem;
-        margin-left: 1.7rem;  
+        margin-right: 1.1rem;
+        margin-left: 1.1rem;  
       }
     }
 // ----------------------------------------- //

@@ -43,6 +43,7 @@ export const PokeMenu = () => (
                       <p className="menu-item-descriptions">Spicy Tuna</p>
                       <p className="menu-item-descriptions">Creamy Scallops</p>
                       <p className="menu-item-descriptions">Organic Tofu</p>
+                      <p className="menu-item-descriptions">Popcorn Shrimp</p>
                     </Col>
                     <Col xs={2} md={12}></Col>
                     </Row>

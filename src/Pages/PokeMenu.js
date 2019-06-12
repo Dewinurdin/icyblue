@@ -31,21 +31,21 @@ export const PokeMenu = () => (
                   <Col xs={12} md={4}>
                     <p className="menu-item-title">PROTEIN</p>
                     <Row>
-                    <Col xs={2} md={12}></Col>
-                    <Col xs={4} md={12}>
+                    <Col xs={1} md={12}></Col>
+                    <Col xs={5} md={12}>
                       <p className="menu-item-descriptions">Ahi Tuna</p>
                       <p className="menu-item-descriptions">Scottish Salmon</p>
                       <p className="menu-item-descriptions">Pepper Tuna</p>
                       <p className="menu-item-descriptions">Crabmeat</p>
 
                     </Col>
-                    <Col xs={4} md={12}>
+                    <Col xs={5} md={12}>
                       <p className="menu-item-descriptions">Spicy Tuna</p>
                       <p className="menu-item-descriptions">Creamy Scallops</p>
                       <p className="menu-item-descriptions">Organic Tofu</p>
                       <p className="menu-item-descriptions">Popcorn Shrimp</p>
                     </Col>
-                    <Col xs={2} md={12}></Col>
+                    <Col xs={1} md={12}></Col>
                     </Row>
                   </Col>
 

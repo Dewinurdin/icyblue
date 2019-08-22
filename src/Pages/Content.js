@@ -70,7 +70,7 @@ const Styles = styled.div `
       font-size: .88rem;
     }
     .top-row {
-      margin: 1rem;
+      margin-top: 1rem;
     }
 
     .size {
@@ -105,6 +105,9 @@ const Styles = styled.div `
         }
         .ice-price {
           font-size: .9rem;
+        }
+        .card-body {
+          padding: .5rem;
         }
 
         h4 {

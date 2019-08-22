@@ -11,20 +11,22 @@ export const IceMenu = () => (
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <Card.Body>
-                <h5>STEP 1: Choose a Flavor listed below</h5>
-                <h5>STEP 2: Choose 3 tasty toppings after your ice cream is made</h5>
+                <h4>STEP 1:</h4>
+                <h5> CHOOSE A FLAVOR LISTED BELOW</h5>
+                <h4>STEP 2: </h4>
+                <h5>CHOOSE 3 TASTY TOPPINGS AFTER YOUR ICE CREAM IS MADE</h5>
                 <Row className="top-row">
                   <Col xs={12} md={4}>
                     <p className="menu-item-title">Strawbella</p>
-                    <p className="menu-item-descriptions"> Strawberry, Graham Cracker & Nutella</p>
+                    <p className="menu-item-descriptions"> Strawberry Base, Graham Cracker & Nutella</p>
                   </Col>
                   <Col xs={12} md={4}>
                     <p className="menu-item-title">Monkey Business</p>
-                    <p className="menu-item-descriptions"> Banana, Graham Cracker, Nutella & Chocolate Sauce</p>
+                    <p className="menu-item-descriptions"> Banana Base Graham Cracker, Nutella & Chocolate Sauce</p>
                   </Col>
                   <Col xs={12} md={4}>
                     <p className="menu-item-title">Pink Lady</p>
-                    <p className="menu-item-descriptions">Strawberry, Graham Crackers & Condensed Milk</p>
+                    <p className="menu-item-descriptions">Strawberry Base, Graham Crackers & Condensed Milk</p>
                   </Col>
                 </Row>
 
@@ -35,7 +37,7 @@ export const IceMenu = () => (
                   </Col>
                   <Col xs={12} md={4}>
                     <p className="menu-item-title">Mucho Mango</p>
-                    <p className="menu-item-descriptions">Strawberry, Mango & Condensed Milk</p>
+                    <p className="menu-item-descriptions">Strawberry Base, Mango & Condensed Milk</p>
                   </Col>
                   <Col xs={12} md={4}>
                     <p className="menu-item-title">Whole Latte Love</p>

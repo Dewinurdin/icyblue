@@ -96,7 +96,7 @@ export const IceMenu = () => (
                       <p className="menu-item-list">Gummy Bear</p>
                       <p className="menu-item-list">Sprinkles</p>
                       <p className="menu-item-list">Skittles</p>
-                      <p className="menu-item-list">Coconut Flakes</p>
+                      <p className="menu-item-list">Coconut Roll</p>
                       <p className="menu-item-list">Sour Patch Kids </p>
                       <p className="menu-item-list">Condensed Milk </p>
 

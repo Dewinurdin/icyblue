@@ -123,7 +123,7 @@ export const PokeMenu = () => (
                     <Col xs={4} md={12}>
                       <p className="menu-item-descriptions">Masago (Fish egg)</p>
                       <p className="menu-item-descriptions">Kizami Nori</p>
-                      <p className="menu-item-descriptions">Lotus Root</p>
+                      <p className="menu-item-descriptions">Crispy Lotus Root</p>
 
                     </Col>
                     <Col xs={2} md={12}></Col>
@@ -183,7 +183,7 @@ export const PokeMenu = () => (
                 <p className="menu-item-descriptions">Your choice of Steam Rice, Brown Rice, Purple Rice or</p>
                 <p className="menu-item-descriptions"><strong>Upgrade to Fried Rice + $2</strong></p>
 
-                <p className="menu-item-descriptions">with Steamed Sweet corn, broccoli, carrot drizzled with Hawaiian barbecue sauce</p>
+                <p className="menu-item-descriptions">with Steamed Asparagus, Sweet corn, Broccoli, Carrots drizzled with Hawaiian barbecue sauce</p>
               
               <Row>
                 <Col xs={12} md={12}>                

@@ -21,14 +21,13 @@ const Styles = styled.div `
 
     h4 {
       font-weight: 600;
-      letter-spacing: 2px;
       padding-bottom: 0;
       margin-bottom: 0.1rem;
       margin-top: .75rem;
     }
     h5 {
       font-weight: bold;
-      letter-spacing: 1px;
+      letter-spacing: .5px;
       color: #494747;
       font-size: 1.1rem;
     }
@@ -49,7 +48,7 @@ const Styles = styled.div `
       border-radius: 3px;
     }
     .card-title {
-      font-size: 1rem;
+      font-size: 1.5rem;
       font-weight: 600;
       margin-bottom: .25rem;
       padding-top: .5rem;
@@ -62,7 +61,7 @@ const Styles = styled.div `
     }   
   }
     .menu-item-title  {
-        margin-bottom: 0px;
+      padding-bottom: .25px;
     }
 
     .menu-item-title, .menu-item-toppings {
@@ -74,9 +73,12 @@ const Styles = styled.div `
       font-weight: 500;
       color: rgb(128,128,128);
       font-size: .88rem;
+      padding-bottom: .4rem;
     }
     .top-row {
       margin-top: 1rem;
+    }
+    .menu-item-descriptions {
     }
 
     .size {
@@ -117,6 +119,9 @@ const Styles = styled.div `
         .card-body {
           padding: .5rem;
         }
+        .card-title {
+          font-size: 1rem;
+        }
 
         h4 {
           font-size: .9rem;
@@ -132,16 +137,15 @@ const Styles = styled.div `
         .menu-item-title {
           font-size: .75rem;
           margin-bottom: .25rem;
-          margin-top: .25rem;
+          margin-top: .1rem;
+          padding-bottom: 0;
         }
         .menu-item-descriptions {
           font-size: .67rem;
-          margin-bottom: 0;
         }
         .menu-item-list {
           font-size: .7rem;
           margin: 5px;
-          padding: 0px;
         }
         .menu-item-warning {
           font-size: .6rem;

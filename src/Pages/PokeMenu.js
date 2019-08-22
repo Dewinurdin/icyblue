@@ -10,8 +10,10 @@ export const PokeMenu = () => (
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="0">
           <Card.Body>
-            <h5>REGULAR: Select 2 protein option   (24oz)    $10.95</h5>
-            <h5>LARGE: Select 3 protein option     (32oz)    $13.50</h5>
+            <h4>REGULAR: $10.95</h4>
+            <h5>SELECT 2 PROTEIN OPTION   (24oz)    </h5>
+            <h4>LARGE: $13.50</h4>
+            <h5>SELECT 3 PROTEIN OPTION   (32oz)    </h5>
               {/* 1st row */}
               <Row className="top-row">
               {/* 1st column */}
@@ -77,14 +79,14 @@ export const PokeMenu = () => (
                   <Col xs={12} md={4}>
                   <Row>
                     <Col xs={6} md={12}>
-                      <p className="menu-item-title">FREE ADD ONS</p>
+                      <p className="menu-item-title">FREE ADD ON</p>
                       <p className="menu-item-descriptions">Cucumber Slices</p>
                       <p className="menu-item-descriptions">Edamame</p>
                       <p className="menu-item-descriptions">Sweet Corn</p>
                       <p className="menu-item-descriptions">Seaweed Salad</p>
                     </Col>
                     <Col xs={6} md={12}>
-                      <p className="menu-item-title">PREMIUM ADD ONS (+ $1)</p>
+                      <p className="menu-item-title">PREMIUM ADD ON (+$1)</p>
                       <p className="menu-item-descriptions">Crabmeat</p>
                       <p className="menu-item-descriptions">Black Tobiko</p>
                       <p className="menu-item-descriptions">Avocado</p>
@@ -135,107 +137,106 @@ export const PokeMenu = () => (
             <Row>
               {/* 1st column */}
               <Col xs={12} md={12}>
-                <p className="menu-item-title"><strong>SELF SERVED TOPPINGS ON SERVER STATION: </strong></p>
+                <div className="menu-item-title">SELF SERVED TOPPINGS ON SERVER STATION: </div>
                 <Row>
-                  <Col xs={2} md={4}></Col>
-                    <Col xs={4} md={2}>
+                    <Col xs={6} md={6}>
                       <p className="menu-item-descriptions">Black Sesame</p>
                       <p className="menu-item-descriptions">Furikake</p>
                       <p className="menu-item-descriptions">Chili Flakes</p>
                     </Col>
-                    <Col xs={4} md={2}>
+                    <Col xs={6} md={6}>
                       <p className="menu-item-descriptions">Sweet Ginger</p>
                       <p className="menu-item-descriptions">Shichimi</p>
                       <p className="menu-item-descriptions">Wasabi</p>
                     </Col>
-                    <Col xs={2} md={4}></Col>
                 </Row>
-                </Col>
-              </Row>
+
+              </Col>
+            </Row>
               
               <Row>
                 <Col xs={12} md={12}>
-                  <p className=" section-title signature-menu">SIGNATURE BOWLS</p>
+                  <div className=" section-title signature-menu">SIGNATURE BOWLS</div>
                 </Col>
 
                 <Col xs={12} md={12}>
-                <p className="menu-item-title">Classic Tuna</p>
-                <p className="menu-item-descriptions">Ahi Tuna, green& sweet onions, cucumber, sesame seed, avocado, edamame, classic shoyu sauce and sushi rice</p>
-                <p className="menu-item-price"><strong>$11.50</strong></p>
+                <div className="menu-item-title">Classic Tuna</div>
+                <div className="menu-item-descriptions">Ahi Tuna, green & sweet onions, cucumber, sesame seed, avocado, edamame, classic shoyu sauce & sushi rice</div>
+                <div className="menu-item-price"><strong>$11.50</strong></div>
 
-                <p className="menu-item-title">Spicy Yuzu Salmon</p>
-                <p className="menu-item-descriptions">Scottish salmon, green onions, cilantro, cucumber, mango, yuzu kosho sauce, kale salad & brown rice, avocado,  jalapeno and sweet ginger</p>
-                <p className="menu-item-price"><strong>$12</strong></p>
+                <div className="menu-item-title">Spicy Yuzu Salmon</div>
+                <div className="menu-item-descriptions">Scottish salmon, green onions, cilantro, cucumber, mango, yuzu kosho sauce, kale salad & brown rice, avocado,  jalapeno and sweet ginger</div>
+                <div className="menu-item-price"><strong>$12</strong></div>
 
-                <p className="menu-item-title">Icy Blue</p>
-                <p className="menu-item-descriptions">Ahi tuna, pepper tuna, green & sweet onion, cucumber, edamame, sriracha aioli sauce, sushi rice, avocado and seaweed salad</p>
-                <p className="menu-item-price"><strong>$13.95</strong></p>
+                <div className="menu-item-title">Icy Blue</div>
+                <div className="menu-item-descriptions">Ahi tuna, pepper tuna, green & sweet onion, cucumber, edamame, sriracha aioli sauce, sushi rice, avocado and seaweed salad</div>
+                <div className="menu-item-price"><strong>$13.95</strong></div>
 
-                <p className="menu-item-title">Veggie Bowl</p>
-                <p className="menu-item-descriptions">Sushi rice and organic  local  greens, organic  tofu,  edamame, cucumber, sweet  corn, sweet chili, gochu  sauce, avocado, seaweed salad</p>
-                <p className="menu-item-price"><strong>$10.95</strong></p>
+                <div className="menu-item-title">Veggie Bowl</div>
+                <div className="menu-item-descriptions">Sushi rice and organic  local  greens, organic  tofu,  edamame, cucumber, sweet  corn, sweet chili, gochu  sauce, avocado, seaweed salad</div>
+                <div className="menu-item-price"><strong>$10.95</strong></div>
 
-                <p className="menu-item-title">Ahi Tuna Tower</p>
-                <p className="menu-item-descriptions">Sushi rice, spicy tuna, crabmeat, avocado, red tobiko, black tobiko, masago, kizami nori, mango sauce,  eel  sauce, sweet  chili sauce &  spicy mayo</p>
-                <p className="menu-item-price"><strong>$13.50</strong></p>
+                <div className="menu-item-title">Ahi Tuna Tower</div>
+                <div className="menu-item-descriptions">Sushi rice, spicy tuna, crabmeat, avocado, red tobiko, black tobiko, masago, kizami nori, mango sauce,  eel  sauce, sweet  chili sauce &  spicy mayo</div>
+                <div className="menu-item-price"><strong>$13.50</strong></div>
 
-                <p className="menu-item-title">Hawaiian Barbecue Bowl</p>
-                <p className="menu-item-descriptions">Your choice of Steam Rice, Brown Rice, Purple Rice or</p>
-                <p className="menu-item-descriptions"><strong>Upgrade to Fried Rice + $2</strong></p>
+                <div className="menu-item-title">Hawaiian Barbecue Bowl</div>
+                <div className="menu-item-descriptions">Your choice of Steam Rice, Brown Rice, Purple Rice or</div>
+                <div className="menu-item-descriptions"><strong>Upgrade to Fried Rice + $2</strong></div>
 
-                <p className="menu-item-descriptions">with Steamed Asparagus, Sweet corn, Broccoli, Carrots drizzled with Hawaiian barbecue sauce</p>
+                <div className="menu-item-descriptions">with Steamed Asparagus, Sweet corn, Broccoli, Carrots drizzled with Hawaiian barbecue sauce</div>
               
               <Row>
                 <Col xs={12} md={12}>                
-                  <p className="menu-item-descriptions" style={{ padding: ".3rem" }}>
+                  <div className="menu-item-descriptions" style={{ padding: ".3rem" }}>
                     <strong>Pick your protein:</strong>
-                  </p>
+                  </div>
                 </Col>
                   <Col xs={3} md={3}>
-                    <p className="menu-item-descriptions">Chicken</p>
+                    <div className="menu-item-descriptions">Chicken</div>
                   </Col> 
                   <Col xs={3} md={3}>
-                    <p className="menu-item-price"><strong>$9</strong></p>
+                    <div className="menu-item-price"><strong>$9</strong></div>
                   </Col> 
                   <Col xs={3} md={3}>            
-                    <p className="menu-item-descriptions">Shrimp</p>
+                    <div className="menu-item-descriptions">Shrimp</div>
                   </Col>
                   <Col xs={3} md={3}>
-                  <p className="menu-item-price"><strong>$10</strong></p>
+                    <div className="menu-item-price"><strong>$10</strong></div>
                   </Col>
 
                   <Col xs={3} md={3}>
-                    <p className="menu-item-descriptions">Steak</p>
+                    <div className="menu-item-descriptions">Steak</div>
                   </Col> 
                   <Col xs={3} md={3}>
-                    <p className="menu-item-price"><strong>$12</strong></p>
+                    <div className="menu-item-price"><strong>$12</strong></div>
                   </Col> 
                   <Col xs={3} md={3}>
-                    <p className="menu-item-descriptions">Salmon</p>
+                    <div className="menu-item-descriptions">Salmon</div>
                   </Col> 
                   <Col xs={3} md={3}>
-                    <p className="menu-item-price"><strong>$11</strong></p>
+                    <div className="menu-item-price"><strong>$11</strong></div>
                   </Col> 
                   <Col xs={3} md={3}></Col>
                 </Row>
 
                 <Row>
                 <Col xs={12} md={12}>                
-                  <p className="menu-item-descriptions" style={{ padding: ".3rem" }}>
+                  <div className="menu-item-descriptions" style={{ padding: ".3rem" }}>
                     <strong>Make it a Combo:</strong>
-                  </p>
+                  </div>
                 </Col>
                   <Col xs={6} md={6}>
-                    <p className="menu-item-descriptions">Combination of 2</p>
+                    <div className="menu-item-descriptions">Combination of 2</div>
                   </Col> 
                   <Col xs={6} md={6}>
-                    <p className="menu-item-price"><strong>$16</strong></p>
+                    <div className="menu-item-price"><strong>$16</strong></div>
                   </Col> 
                   <Col xs={6} md={6}>            
-                    <p className="menu-item-descriptions">Combination of 3</p>
+                    <div className="menu-item-descriptions">Combination of 3</div>
                   </Col>
                   <Col xs={6} md={6}>
-                  <p className="menu-item-price"><strong>$20</strong></p>
+                  <div className="menu-item-price"><strong>$20</strong></div>
                   </Col>
                 </Row>
                 </Col>
@@ -244,9 +245,9 @@ export const PokeMenu = () => (
 
               <Row>
                 <Col xs={12} md={12}>
-                  <p className="menu-item-warning">
+                  <div className="menu-item-warning">
                     Consuming raw or under cooked meat, fish, shellfish or fresh egg may increase your risk of food  borne illness, especially if you have certain medical conditions
-                  </p>
+                  </div>
                 </Col>
               </Row>
           </Card.Body>

@@ -6,8 +6,8 @@ export const IceMenu = () => (
         <Accordion defaultActiveKey="0" >
           <Card >
             <Accordion.Toggle className="section-title" as={Card.Header} eventKey="0">
-              <h4>ROLLED ICE CREAM</h4>
-              <p className="ice-price">$6.99</p>
+              <div className="card-title">ROLLED ICE CREAM</div>
+              <div className="ice-price">$6.99</div>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <Card.Body>

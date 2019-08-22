@@ -6,7 +6,7 @@ export const PokeMenu = () => (
     <Accordion defaultActiveKey="0">
       <Card>
         <Accordion.Toggle className="section-title" as={Card.Header} eventKey="0">
-        <h4>POKE BOWL</h4>
+        <div className="card-title">POKE BOWL</div>
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="0">
           <Card.Body>

@@ -19,11 +19,6 @@ const Styles = styled.div `
     .accordion {
     }
 
-    .section-title {
-      background-color: rgb(159, 198, 243);
-      color: #fff;
-      border-radius: 3px;
-    }
     h4 {
       font-weight: 600;
       letter-spacing: 2px;
@@ -48,11 +43,22 @@ const Styles = styled.div `
       color: #fff;
       margin: .5rem;
     }   
+    .card-header {
+      background-color: rgb(159, 198, 243);
+      color: #fff;
+      border-radius: 3px;
+    }
+    .card-title {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: .25rem;
+      padding-top: .5rem;
+    }
     .ice-price {
       color: #fff;
       font-size: 1.3rem;
       font-weight: 600;
-      padding: .2rem;
+      padding-bottom: .5rem;
     }   
   }
     .menu-item-title  {
@@ -102,6 +108,8 @@ const Styles = styled.div `
 
         .section-title {
           padding: 0;
+          margin:0;
+          border-radius: 0;
         }
         .ice-price {
           font-size: .9rem;
